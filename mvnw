@@ -34,6 +34,11 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
+
+set JAVA_HOME=/Users/zy/lib/jdk-12.0.2.jdk
+
+
+
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
   if [ -f /etc/mavenrc ] ; then
@@ -71,6 +76,8 @@ if [ -z "$JAVA_HOME" ] ; then
     JAVA_HOME=`java-config --jre-home`
   fi
 fi
+
+
 
 if [ -z "$M2_HOME" ] ; then
   ## resolve links - $0 may be a link to maven's home
